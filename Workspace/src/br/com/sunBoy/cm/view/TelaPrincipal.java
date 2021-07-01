@@ -1,12 +1,14 @@
 package br.com.sunBoy.cm.view;
 
 import br.com.sunBoy.cm.modelo.Tabuleiro;
+import br.com.sunBoy.cm.modelo.Tabuleiro;
 
 import javax.swing.*;
 
 public class TelaPrincipal extends JFrame {
 
     public TelaPrincipal(){
+
         Tabuleiro tabuleiro = new Tabuleiro(16,30, 20);
 
         add(new PainelTabuleiro(tabuleiro));
